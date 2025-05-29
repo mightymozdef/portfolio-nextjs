@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+/* Custom styles can be added below this line */
+
+* {
+    font-family: Inconsolata, monospace;
+}
+
+html {
+    scroll-behavior: smooth;
+}

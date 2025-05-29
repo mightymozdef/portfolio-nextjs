@@ -1,0 +1,32 @@
+{
+  "name": "portfolio-nextjs",
+  "version": "1.0.0",
+  "description": "A portfolio website built with Next.js and Tailwind CSS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [
+    "nextjs",
+    "portfolio",
+    "tailwindcss"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.1.8",
+    "autoprefixer": "latest",
+    "next": "latest",
+    "postcss": "^8.5.4",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-scroll": "^1.9.3",
+    "tailwindcss": "^4.1.8"
+  },
+  "devDependencies": {
+    "eslint": "latest",
+    "eslint-config-next": "latest"
+  }
+}
