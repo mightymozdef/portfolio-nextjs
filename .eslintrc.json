@@ -10,25 +10,33 @@
     "plugin:import/errors",
     "plugin:import/warnings"
   ],
-  "parser": "babel-eslint",
+  "parser": "@babel/eslint-parser",
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true
     },
+    "requireConfigFile": false,
     "ecmaVersion": 12,
     "sourceType": "module"
   },
-  "plugins": [
-    "react",
-    "jsx-a11y",
-    "import"
-  ],
+  "plugins": ["react", "jsx-a11y", "import"],
   "rules": {
     "react/react-in-jsx-scope": "off",
     "import/order": [
       "error",
       {
-        "groups": [["builtin", "external"], "internal", "parent", "sibling", "index"],
+        "groups": [
+          ["builtin", "external"],
+          "internal",
+          "parent",
+          "sibling",
+          "index"
+        ],
         "newlines-between": "always"
       }
     ]
