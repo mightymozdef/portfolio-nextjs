@@ -30,8 +30,11 @@ export const experiences = [
     company: 'Depository Trust & Clearing Corporation',
     location: 'Jersey City, NJ',
     duration: 'Dec 2020 - Apr 2023',
-    description:
-      'Worked on various projects involving software development, testing, and deployment. Collaborated with cross-functional teams to deliver high-quality software solutions.',
+    description: `Converted to full time under Enterprise DevSecOps CPR Squad to assist in maintenance of Disaster Recovery Dashboard applications.
+      Worked on various projects involving software development, testing, and deployment. 
+      Utilized Java, Spring Boot, and Angular to develop and maintain web applications.
+      Migrated legacy applications to modern frameworks, improving performance and maintainability.
+      Collaborated with cross-functional agile teams to deliver high-quality software solutions.`,
   },
   {
     id: 2,
@@ -39,7 +42,9 @@ export const experiences = [
     company: 'TEKSystems',
     location: 'New York, NY',
     duration: 'May 2020 - Dec 2020',
-    description:
-      'Contracted to DTCC to assist in the development of legacy Java applications, focusing on backend services and database integration. Gained experience in agile methodologies and software development life cycle.',
+    description: `Contracted to DTCC to assist in the development of legacy Java applications 
+      that were used for company wide disaster recovery exercises, 
+      focusing on frontend and backend services, as well as database integration. 
+      Gained experience in agile methodologies and software development life cycle.`,
   },
 ]
