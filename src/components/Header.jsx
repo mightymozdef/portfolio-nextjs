@@ -3,7 +3,7 @@ import { Link as ScrollLink } from 'react-scroll'
 
 const Header = () => {
   return (
-    <header className='bg-gray-800 text-white'>
+    <header className='bg-gray-800 text-white fixed top-0 left-0 right-0 z-50 shadow-md'>
       <div className='container mx-auto px-4 py-4 flex justify-between items-center'>
         <h1 className='text-2xl font-bold'>
           <a href='/'>Moez Bhatti</a>
